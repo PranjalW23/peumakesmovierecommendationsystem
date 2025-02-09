@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎬 Movie Explorer</h1>
+        <input type="text" id="searchInput" placeholder="Search for movies...">
+        <button onclick="searchMovies()">🔍</button>
+    </header>
+
+    <main>
+        <h2>🔥 Trending Movies</h2>
+        <div id="trendingContainer" class="grid-container"></div>
+
+        <h2>🆕 New Releases</h2>
+        <div id="newMoviesContainer" class="grid-container"></div>
+
+        <h2>🎭 Genre-wise Movies</h2>
+        <select id="genreSelect" onchange="fetchGenreMovies()">
+            <option value="28">Action</option>
+            <option value="35">Comedy</option>
+            <option value="18">Drama</option>
+            <option value="27">Horror</option>
+            <option value="878">Sci-Fi</option>
+        </select>
+        <div id="genreMoviesContainer" class="grid-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
