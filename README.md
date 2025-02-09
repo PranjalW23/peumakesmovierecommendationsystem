@@ -4,12 +4,14 @@ A simple and stylish web application that allows users to search for movies, vie
 
 ---
 
-## 🚀 Features
+## 🌟 Features  
 
-✅ **Search for Movies** - Users can search for any movie by title.  
-✅ **Movie Details Page** - View cast, ratings, and descriptions.  
-✅ **Cast & Crew Information** - Displays **top 5 actors** and the **director**.  
-✅ **Recommendations** - Get movie suggestions based on the selected movie.  
+✅ **Search for Movies & TV Shows**  
+✅ **View Movie Details** (Cast, Director, Duration, Ratings)  
+✅ **Get Similar Movie Recommendations**  
+✅ **Trending Movies Section**  
+✅ **New Releases Section**  
+✅ **Genre-Wise Movie Listings**  
 ✅ **Responsive Design** - Works on desktop and mobile devices.  
 ✅ **Modern UI** - Clean and sleek design for a great user experience.  
 
@@ -24,24 +26,19 @@ A simple and stylish web application that allows users to search for movies, vie
 
 ---
 
-## 🔧 Installation & Setup
+## 🛠️ Technologies Used  
+- **HTML** - Structure of the website  
+- **CSS** - Styling and layout  
+- **JavaScript** - Dynamic content and API handling  
+- **TMDB API** - Fetch movie data  
 
-### 1️⃣ Get a TMDB API Key
-1. Go to [The Movie Database (TMDB)](https://www.themoviedb.org/).  
-2. Sign up and get your **API key** from the developer section.  
+---
 
-### 2️⃣ Clone this Repository
-```sh
-git clone https://github.com/your-username/movie-recommendation.git
-cd movie-recommendation
-```
-
-### 3️⃣ Add Your API Key
-- Open `script.js` and `movie.js`.  
-- Replace `your_tmdb_api_key` with your actual API key.  
-
-### 4️⃣ Open `index.html`
-Simply open `index.html` in your browser and start using the app!  
+## 🚀 Installation & Setup  
+1. **Clone the Repository**  
+   ```sh
+   git clone https://github.com/your-username/movie-recommendation.git
+   cd movie-recommendation
 
 ---
 
